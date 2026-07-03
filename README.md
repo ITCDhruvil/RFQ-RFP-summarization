@@ -11,6 +11,8 @@ Production POC for RFQ/RFP document upload, parsing, and (future) grounded summa
 
 Phase 3 uses **OpenAI** for focused extraction and summaries. Phase 4 adds **Chroma** vector search and a **per-document chat** UI (see [docs/CHAT.md](docs/CHAT.md)).
 
+> 🚀 **New here? Read [docs/GETTING_STARTED.md](docs/GETTING_STARTED.md)** for the full step-by-step guide to run the app locally.
+
 ## Stack
 
 | Layer | Technology |
@@ -25,6 +27,7 @@ RAQ-Document-summarizer/
 ├── backend/                 # Django API + Celery workers
 ├── frontend/                # Next.js UI
 ├── docs/
+│   ├── GETTING_STARTED.md   # how to run the app locally
 │   ├── API_CONTRACTS.md
 │   ├── ARCHITECTURE.md
 │   ├── DATA_MODEL.md
