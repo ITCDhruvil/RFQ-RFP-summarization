@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Django
+backend/media/
+backend/staticfiles/
+backend/chroma_data/
+backend/.env
+*.sqlite3
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
